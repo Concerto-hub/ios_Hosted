@@ -17,7 +17,6 @@
 		28AEE3E92A790512000042F5 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3E82A790512000042F5 /* PaymentManager.swift */; };
 		28AEE3EB2A790517000042F5 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3EA2A790517000042F5 /* PaymentRouter.swift */; };
 		28AEE3ED2A79051C000042F5 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3EC2A79051C000042F5 /* PaymentInteractor.swift */; };
-		28D901C72A7A2F8E0049446A /* UWInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D901C62A7A2F8E0049446A /* UWInitialization.swift */; };
 		2D20CAE7AAB0BB3BFA121C23AFBCEE3C /* Pods-iOS_Hosted_plugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A37E6AD6FE34C232365306B1E52D68 /* Pods-iOS_Hosted_plugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D8DE856E679CBD3FF2978944092295 /* Pods-iOS_Hosted_plugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1ACEEA424089D446F45DF1C40885D /* Pods-iOS_Hosted_plugin_Tests-dummy.m */; };
 		3D67E3A7A21C37088889CC9318E55C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -50,6 +49,7 @@
 		033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS_Hosted_plugin_Example"; path = Pods_iOS_Hosted_plugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D427BC4BF6C12D1343E7EEDF933ACD7 /* Pods-iOS_Hosted_plugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_Hosted_plugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225D282D078B62CC104728E820F86123 /* Pods-iOS_Hosted_plugin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_Hosted_plugin_Example-umbrella.h"; sourceTree = "<group>"; };
+		28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
 		28AEE3D62A78FE59000042F5 /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UMResponceErrorEnum.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UMResponceErrorEnum.swift; sourceTree = "<group>"; };
 		28AEE3D82A78FE74000042F5 /* UMUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UMUtilities.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UMUtilities.swift; sourceTree = "<group>"; };
 		28AEE3DA2A78FE7D000042F5 /* UWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UWConfiguration.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UWConfiguration.swift; sourceTree = "<group>"; };
@@ -61,7 +61,6 @@
 		28AEE3EA2A790517000042F5 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentRouter.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Worker/PaymentRouter.swift; sourceTree = "<group>"; };
 		28AEE3EC2A79051C000042F5 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentInteractor.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Worker/PaymentInteractor.swift; sourceTree = "<group>"; };
 		28D901C52A7A2E990049446A /* iosHosted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosHosted.h; sourceTree = "<group>"; };
-		28D901C62A7A2F8E0049446A /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UWInitialization.swift; path = ../../../../hosted_ios/Pods/Urway/UrwayFramework/native/Urway/UWInitialization.swift; sourceTree = "<group>"; };
 		3397A59CB874E193D042A3540CA8C868 /* iOS_Hosted_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-umbrella.h"; sourceTree = "<group>"; };
 		375A6B8D86A77A3D9778A8FCB5C2C854 /* iOS_Hosted_plugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS_Hosted_plugin-Info.plist"; sourceTree = "<group>"; };
 		3BD84F7A123A965792D046D6B29841B0 /* iOS_Hosted_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-prefix.pch"; sourceTree = "<group>"; };
@@ -160,7 +159,7 @@
 				28AEE3D52A78F3AB000042F5 /* PaymentController */,
 				28AEE3D42A78F398000042F5 /* Others */,
 				28D901C52A7A2E990049446A /* iosHosted.h */,
-				28D901C62A7A2F8E0049446A /* UWInitialization.swift */,
+				28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -478,7 +477,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AEE3E92A790512000042F5 /* PaymentManager.swift in Sources */,
-				28D901C72A7A2F8E0049446A /* UWInitialization.swift in Sources */,
 				28AEE3DB2A78FE7D000042F5 /* UWConfiguration.swift in Sources */,
 				28AEE3E22A7904D2000042F5 /* PaymentViewController.swift in Sources */,
 				28AEE3D72A78FE59000042F5 /* UMResponceErrorEnum.swift in Sources */,

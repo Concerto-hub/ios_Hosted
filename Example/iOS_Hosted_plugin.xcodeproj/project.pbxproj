@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D9E381EC35AC4894FD7D137 /* Pods_iOS_Hosted_plugin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0C85E15C2D032BD53FB8DF /* Pods_iOS_Hosted_plugin_Tests.framework */; };
-		5F8ACE4263B361748826B773 /* Pods_iOS_Hosted_plugin_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA832F8DB192654AD2D28F8D /* Pods_iOS_Hosted_plugin_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -38,11 +36,9 @@
 		607FACE51AFB9204008FA782 /* iOS_Hosted_plugin_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Hosted_plugin_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A0C85E15C2D032BD53FB8DF /* Pods_iOS_Hosted_plugin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Hosted_plugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9439A619E9DBC083572D8B /* Pods-iOS_Hosted_plugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Hosted_plugin_Example.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Hosted_plugin_Example/Pods-iOS_Hosted_plugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		925D8C160FA837BF268D5AE9 /* Pods-iOS_Hosted_plugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Hosted_plugin_Example.release.xcconfig"; path = "Target Support Files/Pods-iOS_Hosted_plugin_Example/Pods-iOS_Hosted_plugin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		992EF33F73204A6CD058D4F8 /* iOS_Hosted_plugin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOS_Hosted_plugin.podspec; path = ../iOS_Hosted_plugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA832F8DB192654AD2D28F8D /* Pods_iOS_Hosted_plugin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Hosted_plugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD20640D4A8D27BDFE85E6BE /* Pods-iOS_Hosted_plugin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Hosted_plugin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Hosted_plugin_Tests/Pods-iOS_Hosted_plugin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C72584A2D9EA7F7E6F870323 /* Pods-iOS_Hosted_plugin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Hosted_plugin_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS_Hosted_plugin_Tests/Pods-iOS_Hosted_plugin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E30CC60A8F917EEF8DF9A3BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -54,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8ACE4263B361748826B773 /* Pods_iOS_Hosted_plugin_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9E381EC35AC4894FD7D137 /* Pods_iOS_Hosted_plugin_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +147,6 @@
 		EA0D13A2BFBC4B8FF239442F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA832F8DB192654AD2D28F8D /* Pods_iOS_Hosted_plugin_Example.framework */,
-				7A0C85E15C2D032BD53FB8DF /* Pods_iOS_Hosted_plugin_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
