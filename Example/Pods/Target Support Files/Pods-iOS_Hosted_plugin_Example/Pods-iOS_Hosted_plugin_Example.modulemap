@@ -1,0 +1,6 @@
+framework module Pods_iOS_Hosted_plugin_Example {
+  umbrella header "Pods-iOS_Hosted_plugin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

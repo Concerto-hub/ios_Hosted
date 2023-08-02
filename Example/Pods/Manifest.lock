@@ -1,0 +1,16 @@
+PODS:
+  - iOS_Hosted_plugin (0.1.0)
+
+DEPENDENCIES:
+  - iOS_Hosted_plugin (from `../`)
+
+EXTERNAL SOURCES:
+  iOS_Hosted_plugin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS_Hosted_plugin: fb9f1efdd0c1d8eb3dd5456108fb22257ae82fa7
+
+PODFILE CHECKSUM: 525c4fcb122dacb1584e08be9a971cedd3059c8d
+
+COCOAPODS: 1.11.3

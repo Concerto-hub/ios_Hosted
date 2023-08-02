@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS_Hosted_plugin'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of iOS_Hosted_plugin.'
-
+  s.version          = '3.0.0'
+  s.summary          = 'iOS_Hosted_plugin performs complete transactions.'
+  s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'iOS_Hosted_plugin/Classes/**/*'
+  s.source_files = 'Sources/**/*.{swift,h,m}'
+    
+  s.resources = "Sources/**/*.storyboard"
   
   # s.resource_bundles = {
   #   'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Assets/*.png']

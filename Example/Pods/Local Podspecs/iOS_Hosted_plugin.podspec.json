@@ -1,0 +1,22 @@
+{
+  "name": "iOS_Hosted_plugin",
+  "version": "0.1.0",
+  "summary": "A short description of iOS_Hosted_plugin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/URWAYios/iOS_Hosted_plugin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "URWAYios": "user.mac@concertosoft.com"
+  },
+  "source": {
+    "git": "https://github.com/URWAYios/iOS_Hosted_plugin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "iOS_Hosted_plugin/Classes/**/*"
+}
