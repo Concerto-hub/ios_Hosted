@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28AEE3D72A78FE59000042F5 /* UMResponceErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3D62A78FE59000042F5 /* UMResponceErrorEnum.swift */; };
-		28AEE3D92A78FE75000042F5 /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3D82A78FE74000042F5 /* UMUtilities.swift */; };
-		28AEE3DB2A78FE7D000042F5 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3DA2A78FE7D000042F5 /* UWConfiguration.swift */; };
-		28AEE3DD2A78FE8B000042F5 /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3DC2A78FE8B000042F5 /* UWInitializer.swift */; };
-		28AEE3E22A7904D2000042F5 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3E12A7904D2000042F5 /* PaymentViewController.swift */; };
-		28AEE3E42A7904DB000042F5 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3E32A7904DB000042F5 /* PaymentPresenter.swift */; };
-		28AEE3E62A7904E2000042F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AEE3E52A7904E2000042F5 /* Main.storyboard */; };
-		28AEE3E92A790512000042F5 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3E82A790512000042F5 /* PaymentManager.swift */; };
-		28AEE3EB2A790517000042F5 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3EA2A790517000042F5 /* PaymentRouter.swift */; };
-		28AEE3ED2A79051C000042F5 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEE3EC2A79051C000042F5 /* PaymentInteractor.swift */; };
+		28AA065C2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */; };
+		28AA065E2A7A89D5007CA6D4 /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */; };
+		28AA06602A7A89F3007CA6D4 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */; };
+		28AA06622A7A8A0B007CA6D4 /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */; };
+		28AA06662A7A8F33007CA6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AA06652A7A8F33007CA6D4 /* Main.storyboard */; };
+		28AA06682A7A8F77007CA6D4 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */; };
+		28AA066A2A7A8FE7007CA6D4 /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */; };
+		28AA066C2A7A905E007CA6D4 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */; };
+		28AA066E2A7A90C6007CA6D4 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */; };
+		28AA06702A7A90DB007CA6D4 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */; };
+		28AA06722A7A9285007CA6D4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */; };
 		2D20CAE7AAB0BB3BFA121C23AFBCEE3C /* Pods-iOS_Hosted_plugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A37E6AD6FE34C232365306B1E52D68 /* Pods-iOS_Hosted_plugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D8DE856E679CBD3FF2978944092295 /* Pods-iOS_Hosted_plugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1ACEEA424089D446F45DF1C40885D /* Pods-iOS_Hosted_plugin_Tests-dummy.m */; };
-		3D67E3A7A21C37088889CC9318E55C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		52EA02F3349315980557129887167F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		638C07273D20C4737012216004D300C5 /* iOS_Hosted_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF305DFC91157E04C94819E5543E8E22 /* iOS_Hosted_plugin-dummy.m */; };
 		A5A06719C6D6210AA1735B84DA002096 /* Pods-iOS_Hosted_plugin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43901F1EA6C4B5E4D881A56A1632DCD1 /* Pods-iOS_Hosted_plugin_Example-dummy.m */; };
 		E49D8769AE1C704CAB54E5AB79C4BAA0 /* iOS_Hosted_plugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3397A59CB874E193D042A3540CA8C868 /* iOS_Hosted_plugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E775F4A55554538C5D3F84FAFBF67503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FAA87F98F9557417EE674ED7E5A26A76 /* Pods-iOS_Hosted_plugin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 225D282D078B62CC104728E820F86123 /* Pods-iOS_Hosted_plugin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,17 +47,18 @@
 		033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS_Hosted_plugin_Example"; path = Pods_iOS_Hosted_plugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D427BC4BF6C12D1343E7EEDF933ACD7 /* Pods-iOS_Hosted_plugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_Hosted_plugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225D282D078B62CC104728E820F86123 /* Pods-iOS_Hosted_plugin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_Hosted_plugin_Example-umbrella.h"; sourceTree = "<group>"; };
-		28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
-		28AEE3D62A78FE59000042F5 /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UMResponceErrorEnum.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UMResponceErrorEnum.swift; sourceTree = "<group>"; };
-		28AEE3D82A78FE74000042F5 /* UMUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UMUtilities.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UMUtilities.swift; sourceTree = "<group>"; };
-		28AEE3DA2A78FE7D000042F5 /* UWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UWConfiguration.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UWConfiguration.swift; sourceTree = "<group>"; };
-		28AEE3DC2A78FE8B000042F5 /* UWInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UWInitializer.swift; path = ../../../../vegaah_hosted/Vegaah_Pay/Sources/Others/UWInitializer.swift; sourceTree = "<group>"; };
-		28AEE3E12A7904D2000042F5 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Controller/PaymentViewController.swift; sourceTree = "<group>"; };
-		28AEE3E32A7904DB000042F5 /* PaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentPresenter.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Presenter/PaymentPresenter.swift; sourceTree = "<group>"; };
-		28AEE3E52A7904E2000042F5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/StoryBoard/Main.storyboard; sourceTree = "<group>"; };
-		28AEE3E82A790512000042F5 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentManager.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Worker/PaymentManager.swift; sourceTree = "<group>"; };
-		28AEE3EA2A790517000042F5 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentRouter.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Worker/PaymentRouter.swift; sourceTree = "<group>"; };
-		28AEE3EC2A79051C000042F5 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentInteractor.swift; path = ../../../../../vegaah_hosted/Vegaah_Pay/Sources/PaymentController/Worker/PaymentInteractor.swift; sourceTree = "<group>"; };
+		28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
+		28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMResponseErrorEnum.swift; sourceTree = "<group>"; };
+		28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMUtilities.swift; sourceTree = "<group>"; };
+		28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWConfiguration.swift; sourceTree = "<group>"; };
+		28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWInitializer.swift; sourceTree = "<group>"; };
+		28AA06652A7A8F33007CA6D4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
+		28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
+		28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		28D901C52A7A2E990049446A /* iosHosted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosHosted.h; sourceTree = "<group>"; };
 		3397A59CB874E193D042A3540CA8C868 /* iOS_Hosted_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-umbrella.h"; sourceTree = "<group>"; };
 		375A6B8D86A77A3D9778A8FCB5C2C854 /* iOS_Hosted_plugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS_Hosted_plugin-Info.plist"; sourceTree = "<group>"; };
@@ -73,7 +72,6 @@
 		6D9C72F9B46A68E455377B0B525158BF /* iOS_Hosted_plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOS_Hosted_plugin.release.xcconfig; sourceTree = "<group>"; };
 		6DFA63F9D2B007BADF47922CADAACAD0 /* Pods-iOS_Hosted_plugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_Hosted_plugin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71B3D56D791DCAEE695EBB1C2C673EBD /* Pods-iOS_Hosted_plugin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_Hosted_plugin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79C1ACEEA424089D446F45DF1C40885D /* Pods-iOS_Hosted_plugin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS_Hosted_plugin_Tests-dummy.m"; sourceTree = "<group>"; };
 		81CC1F38728EF4BD13D5CEF9EA8B786E /* Pods-iOS_Hosted_plugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_Hosted_plugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B31FFDCCFE4B404ECAF22D617A26237 /* Pods-iOS_Hosted_plugin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_Hosted_plugin_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E775F4A55554538C5D3F84FAFBF67503 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D67E3A7A21C37088889CC9318E55C3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EA02F3349315980557129887167F3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,10 +162,10 @@
 		28AEE3D42A78F398000042F5 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3DA2A78FE7D000042F5 /* UWConfiguration.swift */,
-				28AEE3D82A78FE74000042F5 /* UMUtilities.swift */,
-				28AEE3D62A78FE59000042F5 /* UMResponceErrorEnum.swift */,
-				28AEE3DC2A78FE8B000042F5 /* UWInitializer.swift */,
+				28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */,
+				28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */,
+				28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */,
+				28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -178,6 +173,7 @@
 		28AEE3D52A78F3AB000042F5 /* PaymentController */ = {
 			isa = PBXGroup;
 			children = (
+				28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */,
 				28AEE3E72A790506000042F5 /* Worker */,
 				28AEE3E02A78FFC7000042F5 /* Controller */,
 				28AEE3DF2A78FFBB000042F5 /* Presenter */,
@@ -189,7 +185,7 @@
 		28AEE3DE2A78FFB0000042F5 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3E52A7904E2000042F5 /* Main.storyboard */,
+				28AA06652A7A8F33007CA6D4 /* Main.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -197,7 +193,7 @@
 		28AEE3DF2A78FFBB000042F5 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3E32A7904DB000042F5 /* PaymentPresenter.swift */,
+				28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -205,7 +201,7 @@
 		28AEE3E02A78FFC7000042F5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3E12A7904D2000042F5 /* PaymentViewController.swift */,
+				28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,9 +209,9 @@
 		28AEE3E72A790506000042F5 /* Worker */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3E82A790512000042F5 /* PaymentManager.swift */,
-				28AEE3EA2A790517000042F5 /* PaymentRouter.swift */,
-				28AEE3EC2A79051C000042F5 /* PaymentInteractor.swift */,
+				28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */,
+				28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */,
+				28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */,
 			);
 			path = Worker;
 			sourceTree = "<group>";
@@ -238,7 +234,6 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -435,7 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AEE3E62A7904E2000042F5 /* Main.storyboard in Resources */,
+				28AA06662A7A8F33007CA6D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,16 +471,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AEE3E92A790512000042F5 /* PaymentManager.swift in Sources */,
-				28AEE3DB2A78FE7D000042F5 /* UWConfiguration.swift in Sources */,
-				28AEE3E22A7904D2000042F5 /* PaymentViewController.swift in Sources */,
-				28AEE3D72A78FE59000042F5 /* UMResponceErrorEnum.swift in Sources */,
-				28AEE3DD2A78FE8B000042F5 /* UWInitializer.swift in Sources */,
-				28AEE3E42A7904DB000042F5 /* PaymentPresenter.swift in Sources */,
+				28AA066C2A7A905E007CA6D4 /* PaymentManager.swift in Sources */,
+				28AA06682A7A8F77007CA6D4 /* PaymentPresenter.swift in Sources */,
+				28AA06622A7A8A0B007CA6D4 /* UWInitializer.swift in Sources */,
+				28AA065E2A7A89D5007CA6D4 /* UMUtilities.swift in Sources */,
+				28AA065C2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift in Sources */,
 				638C07273D20C4737012216004D300C5 /* iOS_Hosted_plugin-dummy.m in Sources */,
-				28AEE3ED2A79051C000042F5 /* PaymentInteractor.swift in Sources */,
-				28AEE3EB2A790517000042F5 /* PaymentRouter.swift in Sources */,
-				28AEE3D92A78FE75000042F5 /* UMUtilities.swift in Sources */,
+				28AA06722A7A9285007CA6D4 /* PaymentViewController.swift in Sources */,
+				28AA06602A7A89F3007CA6D4 /* UWConfiguration.swift in Sources */,
+				28AA06702A7A90DB007CA6D4 /* PaymentInteractor.swift in Sources */,
+				28AA066E2A7A90C6007CA6D4 /* PaymentRouter.swift in Sources */,
+				28AA066A2A7A8FE7007CA6D4 /* PaymentConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

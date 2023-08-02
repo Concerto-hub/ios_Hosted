@@ -32,7 +32,7 @@ public protocol Initializer: UIViewController {
 
 public class UWInitialization {
     
-    private var initProto: Initializer? = nil
+    public var initProto: Initializer? = nil
     
     @discardableResult public init(_ parentController: UIViewController , onCompletion: ((UIViewController? , paymentResult) -> Void)? = nil)
     {
