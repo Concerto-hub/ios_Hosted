@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Concerto-hub/iOS_Hosted'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ios_Hosted' => 'user.mac@concertosoft.com' }
   s.source           = { :git => 'https://github.com/Concerto-hub/ios_Hosted.git', :tag => s.version.to_s }
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Sources/**/*.{swift,h,m}'
     
-  s.resources = "Sources/**/*.storyboard"
+  #s.resources = 'Sources/**/*.storyboard'
   
   # s.resource_bundles = {
   #   'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Assets/*.png']
