@@ -12,13 +12,13 @@
 		282E5E172A7B7826007D9287 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E052A7B7825007D9287 /* UWConfiguration.swift */; };
 		282E5E182A7B7826007D9287 /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E062A7B7825007D9287 /* UWInitializer.swift */; };
 		282E5E192A7B7826007D9287 /* UWInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E072A7B7825007D9287 /* UWInitialization.swift */; };
-		282E5E1A2A7B7826007D9287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282E5E0A2A7B7825007D9287 /* Main.storyboard */; };
 		282E5E1B2A7B7826007D9287 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0C2A7B7825007D9287 /* PaymentPresenter.swift */; };
 		282E5E1C2A7B7826007D9287 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0E2A7B7825007D9287 /* PaymentViewController.swift */; };
 		282E5E1D2A7B7826007D9287 /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0F2A7B7825007D9287 /* PaymentConfiguration.swift */; };
 		282E5E1E2A7B7826007D9287 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E112A7B7825007D9287 /* PaymentManager.swift */; };
 		282E5E1F2A7B7826007D9287 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E122A7B7825007D9287 /* PaymentRouter.swift */; };
 		282E5E202A7B7826007D9287 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E132A7B7825007D9287 /* PaymentInteractor.swift */; };
+		28F0E92B2A7BB3ED00AA0100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F0E92A2A7BB3ED00AA0100 /* Main.storyboard */; };
 		2D20CAE7AAB0BB3BFA121C23AFBCEE3C /* Pods-iOS_Hosted_plugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A37E6AD6FE34C232365306B1E52D68 /* Pods-iOS_Hosted_plugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D8DE856E679CBD3FF2978944092295 /* Pods-iOS_Hosted_plugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1ACEEA424089D446F45DF1C40885D /* Pods-iOS_Hosted_plugin_Tests-dummy.m */; };
 		638C07273D20C4737012216004D300C5 /* iOS_Hosted_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF305DFC91157E04C94819E5543E8E22 /* iOS_Hosted_plugin-dummy.m */; };
@@ -52,7 +52,6 @@
 		282E5E052A7B7825007D9287 /* UWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWConfiguration.swift; sourceTree = "<group>"; };
 		282E5E062A7B7825007D9287 /* UWInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitializer.swift; sourceTree = "<group>"; };
 		282E5E072A7B7825007D9287 /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
-		282E5E0A2A7B7825007D9287 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		282E5E0C2A7B7825007D9287 /* PaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
 		282E5E0E2A7B7825007D9287 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		282E5E0F2A7B7825007D9287 /* PaymentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		282E5E122A7B7825007D9287 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
 		282E5E132A7B7825007D9287 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
 		282E5E212A7B80D8007D9287 /* ios_Hosted_Plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_Hosted_Plugin.h; sourceTree = "<group>"; };
+		28F0E92A2A7BB3ED00AA0100 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3397A59CB874E193D042A3540CA8C868 /* iOS_Hosted_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-umbrella.h"; sourceTree = "<group>"; };
 		375A6B8D86A77A3D9778A8FCB5C2C854 /* iOS_Hosted_plugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS_Hosted_plugin-Info.plist"; sourceTree = "<group>"; };
 		3BD84F7A123A965792D046D6B29841B0 /* iOS_Hosted_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-prefix.pch"; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		282E5E092A7B7825007D9287 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				282E5E0A2A7B7825007D9287 /* Main.storyboard */,
+				28F0E92A2A7BB3ED00AA0100 /* Main.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -400,7 +400,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -425,7 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282E5E1A2A7B7826007D9287 /* Main.storyboard in Resources */,
+				28F0E92B2A7BB3ED00AA0100 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,7 +829,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,

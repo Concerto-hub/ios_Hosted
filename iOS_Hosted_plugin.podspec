@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS_Hosted_plugin'
-  s.version          = '1.0.6'
+  s.version          = '1.0.8'
   s.summary          = 'iOS_Hosted_plugin performs complete transactions.'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.{swift,h,m}'
     
-  s.resources = 'iOS_Hosted_plugin/Sources/**/*.storyboard'
+  s.resources = 'Sources/**/*.storyboard'
 #  s.resource_bundles = {
 #    'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Sources/**/*.storyboard']
 #  }
