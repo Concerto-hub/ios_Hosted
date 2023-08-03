@@ -1,14 +1,14 @@
 //
-//  UMResponseErrorEnum.swift
-//  iOS_Hosted_plugin
+//  UMResponceErrorEnum.swift
+//  Pods-UrwayDemoApp
 //
-//  Created by Amit Tiwari on 02/08/23.
+//  Created by aravind-zt336 on 31/05/20.
 //
 
 import Foundation
 
 
-internal struct UMResponseMessage {
+internal struct UMResponceMessage {
     static var responseDict: [String : String] = [
         "1":"Approved, Pending for Authorisation",
         "0":"Transaction Successful",
@@ -335,5 +335,4 @@ internal struct UMResponseMessage {
         "905":"Invalid Token operation"
     ]
 }
-
 

@@ -1,14 +1,13 @@
 //
 //  PaymentPresenter.swift
-//  iOS_Hosted_plugin
+//  Urway
 //
-//  Created by Amit Tiwari on 02/08/23.
-//
+//  Copyright (c) 2020 URWAY. All rights reserved.
 
 import UIKit
 
 protocol IPaymentPresenter: class {
-    // do someting...
+	// do someting...
     
     func apiResult(result: paymentResult, response: [String: Any]?  , error: Error? )
 }
@@ -27,4 +26,3 @@ class PaymentPresenter: IPaymentPresenter {
         view?.apiResult(result: result, response: response ,  error: error)
     }
 }
-

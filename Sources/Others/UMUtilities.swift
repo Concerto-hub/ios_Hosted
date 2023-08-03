@@ -1,8 +1,8 @@
 //
 //  UMUtilities.swift
-//  iOS_Hosted_plugin
+//  Urway
 //
-//  Created by Amit Tiwari on 02/08/23.
+//  Copyright © 2020 URWAY. All rights reserved.
 //
 
 import Foundation
@@ -13,7 +13,7 @@ import UIKit
 public struct ZDLUtility {
     public static func getBundle() -> Bundle? {
         var bundle: Bundle?
-        if let urlString = Bundle.main.path(forResource:"Payments", ofType: "framework", inDirectory: "Frameworks")
+        if let urlString = Bundle.main.path(forResource:"Urway", ofType: "framework", inDirectory: "Frameworks")
         {
             bundle = (Bundle(url: URL(fileURLWithPath: urlString)))
         }
@@ -218,4 +218,3 @@ internal struct Validator {
         return address ?? ""
     }
 }
-

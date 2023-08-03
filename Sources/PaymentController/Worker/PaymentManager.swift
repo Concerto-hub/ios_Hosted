@@ -1,16 +1,15 @@
 //
 //  PaymentManager.swift
-//  iOS_Hosted_plugin
+//  Urway
 //
-//  Created by Amit Tiwari on 02/08/23.
-//
+//  Copyright (c) 2020 URWAY. All rights reserved.
 
 import Foundation
 
 protocol IPaymentManager: class {
-    // do someting...
+	// do someting...
 }
 
 class PaymentManager: IPaymentManager {
-    // do someting...
+	// do someting...
 }

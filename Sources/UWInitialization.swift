@@ -1,8 +1,8 @@
 //
 //  UWInitialization.swift
-//  Pods
+//  Urway
 //
-//  Created by Amit Tiwari on 02/08/23.
+//  Copyright © 2020 URWAY. All rights reserved.
 //
 
 import Foundation
@@ -32,7 +32,7 @@ public protocol Initializer: UIViewController {
 
 public class UWInitialization {
     
-    public var initProto: Initializer? = nil
+    private var initProto: Initializer? = nil
     
     @discardableResult public init(_ parentController: UIViewController , onCompletion: ((UIViewController? , paymentResult) -> Void)? = nil)
     {
@@ -57,6 +57,5 @@ public class UWInitialization {
         }
     }
 }
-
 
 

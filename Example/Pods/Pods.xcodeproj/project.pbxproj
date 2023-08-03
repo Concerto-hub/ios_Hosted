@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28AA065C2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */; };
-		28AA065E2A7A89D5007CA6D4 /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */; };
-		28AA06602A7A89F3007CA6D4 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */; };
-		28AA06622A7A8A0B007CA6D4 /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */; };
-		28AA06662A7A8F33007CA6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AA06652A7A8F33007CA6D4 /* Main.storyboard */; };
-		28AA06682A7A8F77007CA6D4 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */; };
-		28AA066A2A7A8FE7007CA6D4 /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */; };
-		28AA066C2A7A905E007CA6D4 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */; };
-		28AA066E2A7A90C6007CA6D4 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */; };
-		28AA06702A7A90DB007CA6D4 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */; };
-		28AA06722A7A9285007CA6D4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */; };
+		282E5E142A7B7826007D9287 /* Urway.h in Headers */ = {isa = PBXBuildFile; fileRef = 282E5E012A7B7825007D9287 /* Urway.h */; };
+		282E5E152A7B7826007D9287 /* UMResponceErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E032A7B7825007D9287 /* UMResponceErrorEnum.swift */; };
+		282E5E162A7B7826007D9287 /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E042A7B7825007D9287 /* UMUtilities.swift */; };
+		282E5E172A7B7826007D9287 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E052A7B7825007D9287 /* UWConfiguration.swift */; };
+		282E5E182A7B7826007D9287 /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E062A7B7825007D9287 /* UWInitializer.swift */; };
+		282E5E192A7B7826007D9287 /* UWInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E072A7B7825007D9287 /* UWInitialization.swift */; };
+		282E5E1A2A7B7826007D9287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282E5E0A2A7B7825007D9287 /* Main.storyboard */; };
+		282E5E1B2A7B7826007D9287 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0C2A7B7825007D9287 /* PaymentPresenter.swift */; };
+		282E5E1C2A7B7826007D9287 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0E2A7B7825007D9287 /* PaymentViewController.swift */; };
+		282E5E1D2A7B7826007D9287 /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E0F2A7B7825007D9287 /* PaymentConfiguration.swift */; };
+		282E5E1E2A7B7826007D9287 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E112A7B7825007D9287 /* PaymentManager.swift */; };
+		282E5E1F2A7B7826007D9287 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E122A7B7825007D9287 /* PaymentRouter.swift */; };
+		282E5E202A7B7826007D9287 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E5E132A7B7825007D9287 /* PaymentInteractor.swift */; };
 		2D20CAE7AAB0BB3BFA121C23AFBCEE3C /* Pods-iOS_Hosted_plugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A37E6AD6FE34C232365306B1E52D68 /* Pods-iOS_Hosted_plugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D8DE856E679CBD3FF2978944092295 /* Pods-iOS_Hosted_plugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1ACEEA424089D446F45DF1C40885D /* Pods-iOS_Hosted_plugin_Tests-dummy.m */; };
 		638C07273D20C4737012216004D300C5 /* iOS_Hosted_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF305DFC91157E04C94819E5543E8E22 /* iOS_Hosted_plugin-dummy.m */; };
@@ -47,19 +49,19 @@
 		033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS_Hosted_plugin_Example"; path = Pods_iOS_Hosted_plugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D427BC4BF6C12D1343E7EEDF933ACD7 /* Pods-iOS_Hosted_plugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_Hosted_plugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225D282D078B62CC104728E820F86123 /* Pods-iOS_Hosted_plugin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_Hosted_plugin_Example-umbrella.h"; sourceTree = "<group>"; };
-		28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
-		28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMResponseErrorEnum.swift; sourceTree = "<group>"; };
-		28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMUtilities.swift; sourceTree = "<group>"; };
-		28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWConfiguration.swift; sourceTree = "<group>"; };
-		28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWInitializer.swift; sourceTree = "<group>"; };
-		28AA06652A7A8F33007CA6D4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
-		28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
-		28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
-		28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
-		28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
-		28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
-		28D901C52A7A2E990049446A /* iosHosted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosHosted.h; sourceTree = "<group>"; };
+		282E5E012A7B7825007D9287 /* Urway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Urway.h; sourceTree = "<group>"; };
+		282E5E032A7B7825007D9287 /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMResponceErrorEnum.swift; sourceTree = "<group>"; };
+		282E5E042A7B7825007D9287 /* UMUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMUtilities.swift; sourceTree = "<group>"; };
+		282E5E052A7B7825007D9287 /* UWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWConfiguration.swift; sourceTree = "<group>"; };
+		282E5E062A7B7825007D9287 /* UWInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitializer.swift; sourceTree = "<group>"; };
+		282E5E072A7B7825007D9287 /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
+		282E5E0A2A7B7825007D9287 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		282E5E0C2A7B7825007D9287 /* PaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		282E5E0E2A7B7825007D9287 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		282E5E0F2A7B7825007D9287 /* PaymentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
+		282E5E112A7B7825007D9287 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		282E5E122A7B7825007D9287 /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		282E5E132A7B7825007D9287 /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
 		3397A59CB874E193D042A3540CA8C868 /* iOS_Hosted_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-umbrella.h"; sourceTree = "<group>"; };
 		375A6B8D86A77A3D9778A8FCB5C2C854 /* iOS_Hosted_plugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS_Hosted_plugin-Info.plist"; sourceTree = "<group>"; };
 		3BD84F7A123A965792D046D6B29841B0 /* iOS_Hosted_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS_Hosted_plugin-prefix.pch"; sourceTree = "<group>"; };
@@ -148,70 +150,70 @@
 			path = "Target Support Files/Pods-iOS_Hosted_plugin_Example";
 			sourceTree = "<group>";
 		};
-		28AEE3D32A78ED7C000042F5 /* Sources */ = {
+		282E5E002A7B7825007D9287 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3D52A78F3AB000042F5 /* PaymentController */,
-				28AEE3D42A78F398000042F5 /* Others */,
-				28D901C52A7A2E990049446A /* iosHosted.h */,
-				28AA065A2A7A8874007CA6D4 /* UWInitialization.swift */,
+				282E5E012A7B7825007D9287 /* Urway.h */,
+				282E5E022A7B7825007D9287 /* Others */,
+				282E5E072A7B7825007D9287 /* UWInitialization.swift */,
+				282E5E082A7B7825007D9287 /* PaymentController */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		28AEE3D42A78F398000042F5 /* Others */ = {
+		282E5E022A7B7825007D9287 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				28AA065B2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift */,
-				28AA065D2A7A89D5007CA6D4 /* UMUtilities.swift */,
-				28AA065F2A7A89F3007CA6D4 /* UWConfiguration.swift */,
-				28AA06612A7A8A0B007CA6D4 /* UWInitializer.swift */,
+				282E5E032A7B7825007D9287 /* UMResponceErrorEnum.swift */,
+				282E5E042A7B7825007D9287 /* UMUtilities.swift */,
+				282E5E052A7B7825007D9287 /* UWConfiguration.swift */,
+				282E5E062A7B7825007D9287 /* UWInitializer.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
 		};
-		28AEE3D52A78F3AB000042F5 /* PaymentController */ = {
+		282E5E082A7B7825007D9287 /* PaymentController */ = {
 			isa = PBXGroup;
 			children = (
-				28AA06692A7A8FE7007CA6D4 /* PaymentConfiguration.swift */,
-				28AEE3E72A790506000042F5 /* Worker */,
-				28AEE3E02A78FFC7000042F5 /* Controller */,
-				28AEE3DF2A78FFBB000042F5 /* Presenter */,
-				28AEE3DE2A78FFB0000042F5 /* StoryBoard */,
+				282E5E092A7B7825007D9287 /* StoryBoard */,
+				282E5E0B2A7B7825007D9287 /* Presenter */,
+				282E5E0D2A7B7825007D9287 /* Controller */,
+				282E5E0F2A7B7825007D9287 /* PaymentConfiguration.swift */,
+				282E5E102A7B7825007D9287 /* Worker */,
 			);
 			path = PaymentController;
 			sourceTree = "<group>";
 		};
-		28AEE3DE2A78FFB0000042F5 /* StoryBoard */ = {
+		282E5E092A7B7825007D9287 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				28AA06652A7A8F33007CA6D4 /* Main.storyboard */,
+				282E5E0A2A7B7825007D9287 /* Main.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
 		};
-		28AEE3DF2A78FFBB000042F5 /* Presenter */ = {
+		282E5E0B2A7B7825007D9287 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				28AA06672A7A8F77007CA6D4 /* PaymentPresenter.swift */,
+				282E5E0C2A7B7825007D9287 /* PaymentPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		28AEE3E02A78FFC7000042F5 /* Controller */ = {
+		282E5E0D2A7B7825007D9287 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				28AA06712A7A9285007CA6D4 /* PaymentViewController.swift */,
+				282E5E0E2A7B7825007D9287 /* PaymentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		28AEE3E72A790506000042F5 /* Worker */ = {
+		282E5E102A7B7825007D9287 /* Worker */ = {
 			isa = PBXGroup;
 			children = (
-				28AA066B2A7A905E007CA6D4 /* PaymentManager.swift */,
-				28AA066D2A7A90C6007CA6D4 /* PaymentRouter.swift */,
-				28AA066F2A7A90DB007CA6D4 /* PaymentInteractor.swift */,
+				282E5E112A7B7825007D9287 /* PaymentManager.swift */,
+				282E5E122A7B7825007D9287 /* PaymentRouter.swift */,
+				282E5E132A7B7825007D9287 /* PaymentInteractor.swift */,
 			);
 			path = Worker;
 			sourceTree = "<group>";
@@ -272,7 +274,7 @@
 		D164DDA222C4D45AD04F3E266FBBA8B2 /* iOS_Hosted_plugin */ = {
 			isa = PBXGroup;
 			children = (
-				28AEE3D32A78ED7C000042F5 /* Sources */,
+				282E5E002A7B7825007D9287 /* Sources */,
 				B53123952B3D413B4432B50E4E4926F0 /* Pod */,
 				30397D5A2BA26097C18A41164C5A1000 /* Support Files */,
 			);
@@ -321,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49D8769AE1C704CAB54E5AB79C4BAA0 /* iOS_Hosted_plugin-umbrella.h in Headers */,
+				282E5E142A7B7826007D9287 /* Urway.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AA06662A7A8F33007CA6D4 /* Main.storyboard in Resources */,
+				282E5E1A2A7B7826007D9287 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,17 +474,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AA066C2A7A905E007CA6D4 /* PaymentManager.swift in Sources */,
-				28AA06682A7A8F77007CA6D4 /* PaymentPresenter.swift in Sources */,
-				28AA06622A7A8A0B007CA6D4 /* UWInitializer.swift in Sources */,
-				28AA065E2A7A89D5007CA6D4 /* UMUtilities.swift in Sources */,
-				28AA065C2A7A89A3007CA6D4 /* UMResponseErrorEnum.swift in Sources */,
+				282E5E1D2A7B7826007D9287 /* PaymentConfiguration.swift in Sources */,
+				282E5E172A7B7826007D9287 /* UWConfiguration.swift in Sources */,
+				282E5E192A7B7826007D9287 /* UWInitialization.swift in Sources */,
+				282E5E1F2A7B7826007D9287 /* PaymentRouter.swift in Sources */,
+				282E5E152A7B7826007D9287 /* UMResponceErrorEnum.swift in Sources */,
+				282E5E1C2A7B7826007D9287 /* PaymentViewController.swift in Sources */,
+				282E5E182A7B7826007D9287 /* UWInitializer.swift in Sources */,
+				282E5E202A7B7826007D9287 /* PaymentInteractor.swift in Sources */,
+				282E5E1E2A7B7826007D9287 /* PaymentManager.swift in Sources */,
+				282E5E1B2A7B7826007D9287 /* PaymentPresenter.swift in Sources */,
 				638C07273D20C4737012216004D300C5 /* iOS_Hosted_plugin-dummy.m in Sources */,
-				28AA06722A7A9285007CA6D4 /* PaymentViewController.swift in Sources */,
-				28AA06602A7A89F3007CA6D4 /* UWConfiguration.swift in Sources */,
-				28AA06702A7A90DB007CA6D4 /* PaymentInteractor.swift in Sources */,
-				28AA066E2A7A90C6007CA6D4 /* PaymentRouter.swift in Sources */,
-				28AA066A2A7A8FE7007CA6D4 /* PaymentConfiguration.swift in Sources */,
+				282E5E162A7B7826007D9287 /* UMUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +524,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin.modulemap";
 				PRODUCT_MODULE_NAME = iOS_Hosted_plugin;
@@ -528,7 +532,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,7 +557,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/iOS_Hosted_plugin/iOS_Hosted_plugin.modulemap";
 				PRODUCT_MODULE_NAME = iOS_Hosted_plugin;
@@ -562,7 +566,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

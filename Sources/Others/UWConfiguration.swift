@@ -1,8 +1,8 @@
 //
-//  UWConfiguration.swift
-//  iOS_Hosted_plugin
+//  UMConfiguration.swift
+//  Pods-UrwayDemoApp
 //
-//  Created by Amit Tiwari on 02/08/23.
+//  Created by aravind-zt336 on 01/06/20.
 //
 
 import Foundation
@@ -27,4 +27,3 @@ public class UWConfiguration: NSObject {
         //Common.Globle.merchantIdentifier=self.merchanIdentifier
     }
 }
-
