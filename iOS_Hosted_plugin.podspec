@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS_Hosted_plugin'
-  s.version          = '1.0.1'
+  s.version          = '1.0.6'
   s.summary          = 'iOS_Hosted_plugin performs complete transactions.'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
