@@ -1,9 +1,6 @@
 //
 //  PaymentConfiguration.swift
-//  Urway
-//
-//  Copyright (c) 2020 URWAY. All rights reserved.
- 
+
 import Foundation
 import UIKit
 

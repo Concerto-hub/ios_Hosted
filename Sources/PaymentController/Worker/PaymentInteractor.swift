@@ -1,9 +1,6 @@
 
 //
 //  PaymentInteractor.swift
-//  Urway
-//
-//  Copyright (c) 2020 URWAY. All rights reserved.
 
 import UIKit
 import CommonCrypto
@@ -171,33 +168,7 @@ class PaymentInteractor: IPaymentInteractor {
                         return
                     }
                     
-                       /*
-                    if tockenName == "D" , let payID = receivedTodo["payid"] as? String{
-                        
-                        fullURL = "https://payments-dev.urway-tech.com/URWAYPGService/3DRedirect.jsp?paymentid=\(payID)"
-                    } else {
-                        fullURL = self.newURL
-                    }*/
-                    
-//                    if tockenName == "D"{
-//                        let string = self.newURL
-//                        if string.contains("?") {
-//                            print("NEW RUNALI : \(string)")
-//
-//                        }
-//                        if let payID = receivedTodo["payid"] as? String{
-//                            print("the NEW URL : \(self.newURL)")
-//                            self.newURL = "\(self.newURL)?paymentid=\(payID)"
-//                            fullURL = "\(self.newURL)\(payID)"
-//                            print("the NEW URL1 : \(fullURL)")
-//                        }else{
-//                            fullURL = self.newURL
-//                            print("the NEW URL2 : \(fullURL)")
-//                        }
-//                        //fullURL = "https://payments-dev.urway-tech.com/URWAYPGService/3DRedirect.jsp?paymentid=\(payID)"
-//                    } else {
-                       fullURL = self.newURL
-//                    }
+
                     print("the NEW URL : \(self.newURL)")
                     print("the url is : \(fullURL)")
 

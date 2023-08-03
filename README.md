@@ -1,6 +1,6 @@
 # iOS_Hosted_plugin
 
-[![CI Status](https://img.shields.io/travis/URWAYios/iOS_Hosted_plugin.svg?style=flat)](https://travis-ci.org/URWAYios/iOS_Hosted_plugin)
+[![CI Status](https://img.shields.io/travis//Concerto-hub/ios_Hosted.svg?style=flat)](https://travis-ci.org/Concerto-hub/ios_Hosted)
 [![Version](https://img.shields.io/cocoapods/v/iOS_Hosted_plugin.svg?style=flat)](https://cocoapods.org/pods/iOS_Hosted_plugin)
 [![License](https://img.shields.io/cocoapods/l/iOS_Hosted_plugin.svg?style=flat)](https://cocoapods.org/pods/iOS_Hosted_plugin)
 [![Platform](https://img.shields.io/cocoapods/p/iOS_Hosted_plugin.svg?style=flat)](https://cocoapods.org/pods/iOS_Hosted_plugin)
@@ -22,7 +22,7 @@ pod 'iOS_Hosted_plugin'
 
 ## Author
 
-URWAYios, user.mac@concertosoft.com
+Concerto-hub, user.mac@concertosoft.com
 
 ## License
 

@@ -1,9 +1,6 @@
 //
 //  UWInitialization.swift
-//  Urway
-//
-//  Copyright © 2020 URWAY. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

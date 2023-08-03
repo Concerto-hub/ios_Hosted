@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  iOS_Hosted_plugin
 //
-//  Created by URWAYios on 08/01/2023.
-//  Copyright (c) 2023 URWAYios. All rights reserved.
-//
 
 import UIKit
 

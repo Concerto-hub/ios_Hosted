@@ -1,9 +1,6 @@
 //
 //  PaymentViewController.swift
-//  Urway
-//
- //  Copyright (c) 2020 URWAY. All rights reserved.
- 
+
 import UIKit
 import SafariServices
 import WebKit
@@ -47,7 +44,7 @@ class PaymentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // do someting...
-        self.title = "URWAY"
+        self.title = "Payment"
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.view.backgroundColor = .white
         

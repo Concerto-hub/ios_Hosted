@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## iOS_Hosted_plugin
 
-Copyright (c) 2023 URWAYios <user.mac@concertosoft.com>
+Copyright (c) 2023 Concerto-hub <user.mac@concertosoft.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

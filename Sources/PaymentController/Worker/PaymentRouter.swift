@@ -1,8 +1,4 @@
 //
-//  PaymentRouter.swift
-//  Urway
-//
-//  Copyright (c) 2020 URWAY. All rights reserved.
 
 import UIKit
 

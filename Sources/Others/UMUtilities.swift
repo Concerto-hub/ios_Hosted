@@ -1,8 +1,6 @@
 //
 //  UMUtilities.swift
-//  Urway
-//
-//  Copyright © 2020 URWAY. All rights reserved.
+
 //
 
 import Foundation
@@ -34,8 +32,8 @@ internal class Common: NSObject {
     internal struct Globle {
             static var terminalId = "iOSAndTerm" // termilan provided by URWAY
             static var password = "password" // password provided by URWAY
-            static var merchantKey = "07dc98635e206f259d9d19a12a02750c8c3a996354bc959508e45449c1bcd02f" // provided by URWAY
-            static var url = "https://payments-dev.urway-tech.com/URWAYPGService/transaction/jsonProcess/JSONrequest" // urway transaction url
+            static var merchantKey = "07dc98635e206f259d9d19a12a02750c8c3a996354bc959508e45449c1bcd02f" 
+           static var url = "https://payments-dev.urway-tech.com/URWAYPGService/transaction/jsonProcess/JSONrequest"
             static var merchantIdentifier="merchant.testios.com"
     }
 }

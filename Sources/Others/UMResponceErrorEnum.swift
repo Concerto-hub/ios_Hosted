@@ -1,9 +1,5 @@
 //
-//  UMResponceErrorEnum.swift
-//  Pods-UrwayDemoApp
-//
-//  Created by aravind-zt336 on 31/05/20.
-//
+
 
 import Foundation
 
