@@ -40,11 +40,14 @@ class PaymentViewController: UIViewController {
     var data:String = ""
     var requestHash:String = ""
     var merchantKey : String = ""
+    var metaData : String = ""
+    var paymentType : String = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // do someting...
-        self.title = "Payment"
+        self.title = "URWAY"
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.view.backgroundColor = .white
         
@@ -117,8 +120,11 @@ extension PaymentViewController: IPaymentViewController {
                            responsecode = (response?["responsecode"] as? String) ?? "nil"
                            amount = (response?["amount"] as? String) ?? ""
                            cardToken = (response?["cardToken"] as? String) ?? ""
-            cardBrand=(response?["cardBrand"] as? String) ?? ""
-            maskedPan=(response?["maskedPAN"] as? String) ?? ""
+                           cardBrand=(response?["cardBrand"] as? String) ?? ""
+                           maskedPan=(response?["maskedPAN"] as? String) ?? ""
+                           metaData=(response?["metaData"] as? String) ?? ""
+                           paymentType=(response?["paymentType"] as? String) ?? ""
+            
                            if responsecode.isEmpty || responsecode == "nil"{
                                responsecode = (response?["responseCode"] as? String) ?? "nil"
                            }
@@ -126,8 +132,9 @@ extension PaymentViewController: IPaymentViewController {
 
                            let message = UMResponceMessage.responseDict[responsecode] ?? ""
                            
-                           
-                           let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: message ,tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message)
+                           print("MetaData ",metaData)
+                           print("payment ",paymentType)
+                           let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: message ,tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message,metaData: metaData,paymentType: paymentType)
                    
                            initProto?.didPaymentResult(result: .sucess , error: nil , model: model)
                            return
@@ -149,12 +156,13 @@ extension PaymentViewController: IPaymentViewController {
                 if responsecode.isEmpty || responsecode == "nil"{
                     responsecode = (response?["responseCode"] as? String) ?? "nil"
                 }
-                
+                metaData=(response?["metaData"] as? String) ?? ""
+                paymentType=(response?["paymentType"] as? String) ?? ""
                 
                 let message = UMResponceMessage.responseDict[responsecode] ?? ""
                 print(message)
                 
-                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: "Failure",tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message)
+                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: "Failure",tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message,metaData: metaData,paymentType: paymentType)
                 
                 initProto?.didPaymentResult(result: .failure(message), error: nil , model: model)
                 return
@@ -191,33 +199,56 @@ extension PaymentViewController {
         estimatedProgress(keyPath: "estimatedProgress")
     }
     
+//    func base64Decoded(strData :String ) -> String? {
+//             let data = Data(base64Encoded: strData, options: .ignoreUnknownCharacters)
+//                return String(data: data, encoding: .utf8)
+//
+//
+//        }
+    
     func estimatedProgress(keyPath :String) {
         
         activityIndicator.startAnimating()
         
         if keyPath == "estimatedProgress" {
             
-            print("check-->" ,self.webView.url ?? "")
+            print("check-->" ,self.webView.url)
             let thisnewURL = self.webView.url
             
             self.newURL =  thisnewURL?.absoluteString ?? ""
             
             
             let fullNameArr = self.newURL.components(separatedBy: "&")
-            print(fullNameArr)
+            
+            
+            
+            print("fullNameArr",fullNameArr)
+            metaData = fullNameArr.filter({$0.contains("metaData")}).first?.components(separatedBy: "=").last ?? ""
+
+            metaData = fullNameArr.filter({$0.contains("metaData")}).first?.components(separatedBy: "metaData=").last ?? ""
+            print("MetaData -->" , metaData)
+            
+            var decodedString : String = ""
+            if let decodedData = Data(base64Encoded: metaData) {
+                metaData = String(data: decodedData, encoding: .utf8)!
+            }
+            print("MetaData -->" , metaData)
+        
             
             payid = fullNameArr.first?.split(separator: "?").last?.components(separatedBy: "=").last ?? "nill"
             tranid = fullNameArr.filter({$0.contains("TranId")}).first?.components(separatedBy: "=").last ?? ""
             results = fullNameArr.filter({$0.contains("Result")}).first?.components(separatedBy: "=").last ?? ""
             responsecode = fullNameArr.filter({$0.contains("ResponseCode")}).first?.components(separatedBy: "=").last ?? ""
             amount = fullNameArr.filter({$0.contains("amount")}).first?.components(separatedBy: "=").last ?? ""
-            cardToken = fullNameArr.filter({$0.contains("cardToken")}).first?.components(separatedBy: "=").last ?? ""
+            cardToken = fullNameArr.filter({$0.contains("CardToken")}).first?.components(separatedBy: "=").last ?? ""
+            paymentType = fullNameArr.filter({$0.contains("PaymentType")}).first?.components(separatedBy: "=").last ?? ""
             
+          
             cardBrand =
-                fullNameArr.filter({$0.contains("cardBrand")}).first?.components(separatedBy: "=").last ?? ""
+                fullNameArr.filter({$0.contains("CardBrand")}).first?.components(separatedBy: "=").last ?? ""
             maskedPan =
-                fullNameArr.filter({$0.contains("maskedPAN")}).first?.components(separatedBy: "=").last ?? ""
-            
+                fullNameArr.filter({$0.contains("MaskedCard")}).first?.components(separatedBy: "=").last ?? ""
+            print(maskedPan)
             if payid == "nill" || payid.isEmpty{
                 self.payid = tranid
             }
@@ -226,9 +257,9 @@ extension PaymentViewController {
                 responsecode = fullNameArr.filter({$0.contains("Responsecode")}).first?.components(separatedBy: "=").last ?? ""
             }
             
-            if responsecode.isEmpty {
-                responsecode = fullNameArr.filter({$0.contains("responseCode")}).first?.components(separatedBy: "=").last ?? ""
-            }
+//            if responsecode.isEmpty {
+//                responsecode = fullNameArr.filter({$0.contains("responseCode")}).first?.components(separatedBy: "=").last ?? ""
+//            }
             
             
             if !responsecode.isEmpty || self.newURL.contains("HTMLPage.html") || self.newURL.contains("gateway"){
@@ -242,18 +273,18 @@ extension PaymentViewController {
                  self.lblActivityIndicator.removeFromSuperview()
                 let message = UMResponceMessage.responseDict[responsecode] ?? ""
 
-                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: message ,tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message)
+                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: message ,tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message,metaData: metaData,paymentType: paymentType)
                 
                 initProto?.didPaymentResult(result: .sucess , error: nil , model: model)
             }
-            else if newURL.contains("Unsuccessful")
+            else if newURL.contains("UnSuccessful")
             {
                 self.activityIndicator.stopAnimating()
                  self.lblActivityIndicator.removeFromSuperview()
                 let message = UMResponceMessage.responseDict[responsecode] ?? ""
 
                 
-                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: "Failure",tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message)
+                let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: "Failure",tokenID: cardToken,cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message,metaData: metaData,paymentType: paymentType)
                 
                 initProto?.didPaymentResult(result: .failure(message), error: nil , model: model)
             }
@@ -267,7 +298,7 @@ extension PaymentViewController {
 
                 
                 let model = PaymentResultData(paymentID: payid, transID: tranid, responseCode: responsecode, amount: amount, result: "Failure",tokenID: cardToken,
-                                              cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message)
+                                              cardBrand: cardBrand,maskedPan: maskedPan,responseMsg: message,metaData: metaData,paymentType: paymentType)
                 
                 initProto?.didPaymentResult(result: .failure(message), error: nil , model: model)
             }
@@ -295,8 +326,11 @@ public class PaymentResultData {
     public var cardBrand:String
     public var maskedPan:String
     public var respMsg:String
+    public var metaData:String
+    public var paymentType:String
     
-    public init(paymentID: String , transID: String , responseCode: String , amount: String , result: String , tokenID: String,cardBrand:String,maskedPan:String, responseMsg:String) {
+    public init(paymentID: String , transID: String , responseCode: String , amount: String , result: String , tokenID: String,cardBrand:String,maskedPan:String, responseMsg:String,metaData:String,paymentType:String) {
+        print(paymentType)
         self.paymentID = paymentID
         self.transID = transID
         self.responseCode = responseCode
@@ -306,6 +340,8 @@ public class PaymentResultData {
         self.cardBrand=cardBrand
         self.maskedPan=maskedPan
         self.respMsg=responseMsg
+        self.metaData=metaData
+        self.paymentType=paymentType
     }
 }
 

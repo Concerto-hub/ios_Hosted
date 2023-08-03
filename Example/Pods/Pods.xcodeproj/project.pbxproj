@@ -45,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS_Hosted_plugin_Example"; path = Pods_iOS_Hosted_plugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D427BC4BF6C12D1343E7EEDF933ACD7 /* Pods-iOS_Hosted_plugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_Hosted_plugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225D282D078B62CC104728E820F86123 /* Pods-iOS_Hosted_plugin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_Hosted_plugin_Example-umbrella.h"; sourceTree = "<group>"; };
 		282E5E032A7B7825007D9287 /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMResponceErrorEnum.swift; sourceTree = "<group>"; };
@@ -84,7 +83,6 @@
 		BD0C024708FA876CD37480BCFC35301C /* Pods-iOS_Hosted_plugin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS_Hosted_plugin_Tests.modulemap"; sourceTree = "<group>"; };
 		C6A37E6AD6FE34C232365306B1E52D68 /* Pods-iOS_Hosted_plugin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_Hosted_plugin_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C99479B9F4ABFC2ED00E2869051F53F1 /* iOS_Hosted_plugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iOS_Hosted_plugin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C9BE8061B903DAD468F1256281BB7A2D /* Pods-iOS_Hosted_plugin_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS_Hosted_plugin_Tests"; path = Pods_iOS_Hosted_plugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D261EC9781ED7E4D26B9B8A2C48B9A60 /* iOS_Hosted_plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_Hosted_plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD7B27B15791A030FC941131541F280 /* Pods-iOS_Hosted_plugin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS_Hosted_plugin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDA0B230C72759BCE289CE6A5080EE28 /* Pods-iOS_Hosted_plugin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS_Hosted_plugin_Example-Info.plist"; sourceTree = "<group>"; };
@@ -243,8 +241,6 @@
 			isa = PBXGroup;
 			children = (
 				D261EC9781ED7E4D26B9B8A2C48B9A60 /* iOS_Hosted_plugin.framework */,
-				033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */,
-				C9BE8061B903DAD468F1256281BB7A2D /* Pods-iOS_Hosted_plugin_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,7 +366,6 @@
 			);
 			name = "Pods-iOS_Hosted_plugin_Tests";
 			productName = Pods_iOS_Hosted_plugin_Tests;
-			productReference = C9BE8061B903DAD468F1256281BB7A2D /* Pods-iOS_Hosted_plugin_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2E1A9340481066ECD47A4EA5909F052 /* Pods-iOS_Hosted_plugin_Example */ = {
@@ -389,7 +384,6 @@
 			);
 			name = "Pods-iOS_Hosted_plugin_Example";
 			productName = Pods_iOS_Hosted_plugin_Example;
-			productReference = 033F8A9334DF4B684D35A6020041F671 /* Pods-iOS_Hosted_plugin_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -406,7 +400,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -835,7 +829,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
