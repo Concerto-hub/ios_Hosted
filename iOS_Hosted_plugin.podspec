@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Sources/**/*.{swift,h,m}'
     
-  s.resources = 'Sources/**/*.storyboard'
+  # s.resources = 'Sources/**/*.storyboard'
   
   # s.resource_bundles = {
   #   'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Assets/*.png']
