@@ -50,7 +50,7 @@ public class UWInitializer {
     var expMonth: String?
     var expYear: String?
     var holderName: String?
-  //  var transId: String = ""
+    var metaData: String?
     
     
     public init(amount: String ,
@@ -79,7 +79,8 @@ public class UWInitializer {
          cvv: String? = nil,
          expMonth: String? = nil,
          expYear: String? = nil,
-         holderName: String? = nil
+         holderName: String? = nil,
+                metaData:String? = nil
          
     ){
         
@@ -113,6 +114,7 @@ public class UWInitializer {
         self.expMonth = expMonth
         self.expYear = expYear
         self.holderName = holderName
+        self.metaData = metaData
     }
 
     public static func generatePaymentKey(payment: PKPayment) -> NSString {

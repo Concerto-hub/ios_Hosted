@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.resources = 'iOS_Hosted_plugin/Sources/**/*.storyboard'
 #  s.resource_bundles = {
 #    'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Sources/**/*.storyboard']
-#    }
+#  }
   # s.resource_bundles = {
   #   'iOS_Hosted_plugin' => ['iOS_Hosted_plugin/Assets/*.png']
   # }
